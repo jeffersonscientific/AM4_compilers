@@ -166,8 +166,8 @@ WRITE_MODULE=1
 VER="1.0.1"
 #TARGET_ROOT="/share/cees"
 TARGET_ROOT="/scratch/${USER}/.local"
-SW_TARGET="${TARGET_ROOT}/software/gfdl_am4/${COMP_MPI}/${VER}"
-MODULE_TARGET="${TARGET_ROOT}/modules/moduledeps/${COMP}-${MPI}/gfdl_am4"
+SW_TARGET="${TARGET_ROOT}/software/am4/${COMP_MPI}/${VER}"
+MODULE_TARGET="${TARGET_ROOT}/modules/moduledeps/${COMP}-${MPI}/am4"
 #
 # The executable: This is a little sloppy. The executable name is specified inthe Makefile, and could/should maybe
 #  be modified. It looks like this binary is specific to an experiment, or something... but for now, as a mater of
